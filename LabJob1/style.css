@@ -1,0 +1,44 @@
+.Top-panel {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(138,175,182,1) 43%, rgba(65,150,167,1) 83%);
+    margin-top: max(-20px, -20px);
+    height: 120px;
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+
+.Url-top {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    font-style: italic;
+    position: absolute;
+    bottom: 12.5cm;
+    margin-left: 8cm;
+
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    padding: 0px 14px;
+}
+
+span {
+    position: absolute;
+    bottom: 14cm;
+    margin-left: 16cm;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 25px;
+    margin-top: 80px;
+    background: rgb(110,181,182);
+    background: linear-gradient(0deg, rgba(110,181,182,1) 0%, rgba(200,189,166,1) 100%);
+
+}
