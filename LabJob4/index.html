@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ua">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>HTML + CSS</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    
+  </head>
+  <body>
+    <h1>Моя перша HTML-форма</h1>
+    <form action="https://httpbin.org/post" method="post">
+      <div class="form">
+        <ul>
+        <label for="name-inf"> Ваше ім'я</label>
+        <input id="name-inf" type="name" name="user_name" placeholder="ПІБ" />
+
+        <br />
+
+        <label for="date-inf">Дата народження</label>
+        <input id="date-inf" type="date" name="user_birthday" />
+        
+        <br />
+
+        <label for="email-inf">Імайл:</label>
+        <input type="email" id="email-inf" name="user_email" placeholder="Ведіть адрес"/>
+        
+        <br />
+
+        <label for="messenge-inf">Повідомлення </label>
+        <textarea name="user_birthday" id="messenge-inf" placeholder="Ведіть текст"></textarea>
+
+        <br />
+
+        <label for="Select-button">скільки я дістану балів?</label>
+
+        <br>
+        
+        <input type="radio" id="myRating10" name="rate" checked />
+        <label for="myRating10">10 &#128513;</label>
+
+        <br>
+
+        <input type="radio" id="myRating8" name="rate"/>
+        <label for="myRating8">8 &#128522</label>
+        
+        <br>
+        
+        <input type="radio" id="myRating6" name="rate"/>
+        <label for="myRating6">6 &#128543</label>
+        <br>
+        
+        <input type="radio" id="myRating4" name="rate"/>
+        <label for="myRating4">4 &#128557</label>
+
+        <br>
+        <label for=""> Які в тебе улюблені жанри в фільмах?</label>
+        <br>
+        <input type="checkbox" name="checkbox" id="checBBox">
+        <label for="">Містика</label>
+        <br>
+        <input type="checkbox" name="checkbox" id="checBBox">
+        <label for="checkbox">Фантастика</label>
+        <br>
+        <input type="checkbox" name="checkbox" id="checBBox">
+        <label for="">Ужастик</label>
+        <br>
+        <input type="checkbox" name="checkbox" id="checBBox">
+        <label for="">Романтика</label>
+                
+        <br>
+
+        <button type="submit">надіслати</button>
+        <button type="reset">очистити</button>
+      </div>
+      <div class="buttonAll">
+        <!--<button>надіслати</button> -->
+        <!--<button onclick="displayResult"()>очистити</button> очищення через js-->
+      </div>
+    </form>
+    <br>
+
+    <picture>
+      <source media="(max-width: 468px)" srcset="https://cdn.pixabay.com/photo/2023/02/15/10/22/backlinks-7791414_1280.jpg">
+      <source media="(max-width: 700px)" srcset="https://cdn.pixabay.com/photo/2016/11/29/12/13/fence-1869401_1280.jpg">
+      <img  src="https://cdn.pixabay.com/photo/2023/02/15/10/22/backlinks-7791412_1280.png" alt="" height="700" width="800"]\>
+   </picture>
+
+    <script src="app.js"></script>
+  </body>
+</html>
