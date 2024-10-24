@@ -1,0 +1,75 @@
+
+
+ol{
+    border: 1px solid red;
+    
+}
+
+h1{
+    color: red;
+}
+
+img {
+    width: 100%;
+    max-width: 100%;
+}
+
+#h1-id{
+    color: green;
+}
+
+.h1-class{
+    text-transform: uppercase
+}
+
+.us-goal{
+    color: #ff0000;
+}
+
+.list__item{
+    background-color: yellow;
+    font-style: italic;
+}
+
+
+.PDF-link{
+    color: green;
+    text-decoration: none;
+    font-style: italic;
+}
+
+a{
+    color: violet;
+    text-decoration: none;
+}
+
+.pidpunkt{
+    text-transform: uppercase
+}
+
+.parahraf-link{
+    color: magenta;
+    background-color: mistyrose;
+}
+
+.send-us-list{
+    text-align: right;
+    font-size: 20px;
+    border: 1px solid blue;
+}
+
+.bold{
+    font-weight: bold;
+    background-color: yellow;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+.PDF-link3,.PDF-link4{
+    color: violet;
+    text-decoration: none;
+    font-style: italic;
+}
+
+
+
